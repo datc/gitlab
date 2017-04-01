@@ -1,5 +1,5 @@
 FROM gitlab/gitlab-ce
 
-VALUME ["/var/opt/gitlab"]
+VOLUME ["/var/opt/gitlab"]
 
 EXPOSE 80 22
